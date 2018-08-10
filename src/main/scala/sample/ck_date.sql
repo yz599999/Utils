@@ -25,7 +25,6 @@ select
  FLASHBACK_ON
 from v$database;
 
-
 col host_name for a30
 col BLOCKED for a7 heading "Blocked"
 col INSTANCE_MODE for a10 heading "Instance|Mode"
